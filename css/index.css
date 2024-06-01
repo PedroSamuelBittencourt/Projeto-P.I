@@ -1,0 +1,18 @@
+
+.text-white {
+    color: white;
+}
+
+ 
+
+#tituloAbaixoMenu{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    padding-top: 2%;
+}
+#menu{
+    background-color: #c3a796;
+}

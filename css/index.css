@@ -2,9 +2,6 @@
 .text-white {
     color: white;
 }
-
- 
-
 #tituloAbaixoMenu{
     display: flex;
     align-items: center;
@@ -12,7 +9,22 @@
     justify-content: center;
     width: 100%;
     padding-top: 2%;
+    background-color:#E5DBD0;
 }
 #menu{
     background-color:#E5DBD0;
+    border-bottom: 1px solid #c3a796;
+}
+
+#cards{
+    background-color: #E5DBD0;
+    padding-top: 3%;
+}
+@media(max-width: 650px){
+ #cards{
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+   
+ }
 }

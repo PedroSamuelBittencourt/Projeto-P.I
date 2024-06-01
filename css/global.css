@@ -7,11 +7,11 @@ body{
 
 #head{
     display: flex;
-    flex: 1;
+   
     text-align: center;
     align-items: center;   /*horizontal */
     justify-content: center; 
-    background-color: #748873;
+    background-color: #E5DBD0;
     position: relative;
 }
 .login_e_sacola{
@@ -28,18 +28,57 @@ body{
     align-items: center;  
     gap: 6%;
     width: 200px;
-
+    color:#89766a;
 }
 .txtLogin{
     display: flex;
     flex-direction: column;
     
 }
-#iconBag, .icon-large{
-    color:#ffff;
+
+#iconBag, #iconLogin{
+    color:#89766a;
     font-size: 185%; ;
    
 }
-@media(max-width: 680px){
 
+@media(max-width: 680px){
+    #head{
+        display: flex;
+        flex: 1;
+        background-color: #E5DBD0;
+        position: relative;
+    }
+    #logo{
+        flex: 1;
+        margin-right: 20%;
+    }
+    .login_e_sacola{
+        flex: 1;
+    }
+}
+
+@media(max-width: 420px){
+    #head{
+        display: flex;
+        flex: 1;
+        background-color: #E5DBD0;
+        position: relative;
+    }
+    #logo{
+        flex: 1;
+        margin-right: 20%;
+    }
+    .login_e_sacola{
+        flex: 1;
+    }
+    #iconBag, .icon-large{
+        color:#ffff;
+        font-size: 140%; ;}
+    .login{ 
+        gap: 4%;
+        width: 150px;
+        
+    }
+       
 }

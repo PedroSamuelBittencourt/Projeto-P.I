@@ -6,13 +6,17 @@ body{
 }
 
 #head{
-    display: flex;
-   
+    position: fixed; 
+    top: 0; 
+    left: 0;
+    width: 100%;
+    z-index: 100;
+    display: flex; 
     text-align: center;
     align-items: center;   /*horizontal */
     justify-content: center; 
     background-color: #E5DBD0;
-    position: relative;
+  
 }
 .login_e_sacola{
     position: absolute;
@@ -63,7 +67,7 @@ body{
         display: flex;
         flex: 1;
         background-color: #E5DBD0;
-        position: relative;
+       
     }
     #logo{
         flex: 1;
